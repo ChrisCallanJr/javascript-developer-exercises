@@ -11,7 +11,21 @@ function paintMixer(color1, color2) {
   The order of the params should not matter.
   */
   // PLACE YOUR CODE BELOW
-
+  if (color1 === 'blue' && color2 === 'red') {
+    return 'purple'
+  } else if (color1 === 'red' && color2 === 'blue') {
+    return 'purple'
+  } else if (color1 === 'red' && color2 === 'green') {
+    return 'brown'
+  } else if (color1 === 'green' && color2 === 'red') {
+    return 'brown'
+  } else if (color1 === 'blue' && color2 === 'yellow') {
+    return 'green'
+  } else if (color1 === 'yellow' && color2 === 'blue') {
+    return 'green'
+  } else {
+    return 'unknown'
+  }
   // PLACE YOUR CODE ABOVE
 }
 

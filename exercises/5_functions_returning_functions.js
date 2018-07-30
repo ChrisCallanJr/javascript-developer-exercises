@@ -7,7 +7,9 @@ function createAddFunction(numberToAdd) {
   returned function.
   */
   // PLACE YOUR CODE BELOW
-
+  return function(i) {
+    return i + numberToAdd
+  }
   // PLACE YOUR CODE ABOVE
 }
 
